@@ -53,7 +53,7 @@ def copyFrom(copyfiles, findpath, excludefiles):
 	print '\n'.join(duplicates)
 	
 	if len(unmatches) > 0 or len(duplicates) > 0:
-		print '存在未匹配&重复文件，请手动操作...'
+		print '存在未匹配或重复文件，请手动操作...'
 
 def sameFind(path):
 	files = {}
