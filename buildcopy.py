@@ -44,7 +44,7 @@ def copyFrom(copyfiles, findpath, excludefiles):
 				cfp.close()
 				ffp.close()
 
-	print '拷贝完成，本次共拷贝' + str(counter) + '个文件'
+	print '\n拷贝完成，本次共拷贝' + str(counter) + '个文件'
 	
 	print str(len(unmatches)) + '个文件未匹配: '
 	print '\n'.join(unmatches)
